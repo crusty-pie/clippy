@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # When a new version of action exists
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
