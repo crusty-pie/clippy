@@ -1,4 +1,4 @@
-# GitHub Action - `rust-clippy`
+# GitHub Action - `rust-clippy-reborn`
 
 ![GitHub](https://img.shields.io/github/license/crusty-pie/clippy?label=License&color=blue&logo=gitbook)
 ![Continuous integration](https://github.com/crusty-pie/clippy/workflows/Unit%20tests/badge.svg)
@@ -19,13 +19,15 @@
 [![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/crusty-pie/clippy?label=Technical%20Debt&logo=codeclimate)](https://codeclimate.com/github/crusty-pie/clippy/trends/technical_debt)
 [![Code Climate issues](https://img.shields.io/codeclimate/issues/crusty-pie/clippy?label=Issues&logo=codeclimate)](https://codeclimate.com/github/crusty-pie/clippy/issues)
 [![Public workflows that use this action](https://img.shields.io/endpoint?label=Used%20By&url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dplacintaalexandru%2Fclippy%26badge%3Dtrue)](https://sourcegraph.com/search?q=context:global+crusty-pie/clippy+file:.github/workflows&patternType=literal)
-[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-rust-clippy-b7410e?logo=github)](https://github.com/marketplace/actions/rust-clippy)
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-rust-clippy-reborn-b7410e?logo=github)](https://github.com/marketplace/actions/rust-clippy-reborn)
 
 Clippy lints in your commits and Pull Requests
 
+<img src="./assets/screenshot.png" alt="Screenshot" style="width:auto; height:50%;"/>
+
 **Table of Contents**
 
-- [GitHub Action - `rust-clippy`](#github-action---rust-clippy)
+- [GitHub Action - `rust-clippy-reborn`](#github-action---rust-clippy-reborn)
   - [Motivation](#motivation)
   - [Example workflow](#example-workflow)
     - [With stable clippy](#with-stable-clippy)
@@ -60,7 +62,7 @@ jobs:
           toolchain: nightly
           components: clippy
           override: true
-      - uses: crusty-pie/rust-clippy@v1
+      - uses: crusty-pie/rust-clippy-reborn@v1
         with:
           args: --all-features --all-targets
 ```
@@ -79,7 +81,7 @@ jobs:
         with:
           toolchain: stable
           components: clippy
-      - uses: crusty-pie/rust-clippy@v1
+      - uses: crusty-pie/rust-clippy-reborn@v1
         with:
           args: --all-features --all-targets
 ```

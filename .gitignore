@@ -92,3 +92,6 @@ typings/
 
 # IntelliJ IDEs
 .idea
+
+# macOS specifics
+.DS_Store
