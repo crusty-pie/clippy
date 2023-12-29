@@ -1,6 +1,6 @@
 {
     "name": "clippy",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "private": false,
     "description": "Run clippy and annotate the diff with errors and warnings",
     "main": "dist/index.js",
