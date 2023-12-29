@@ -57,9 +57,9 @@ jobs:
       - uses: actions/checkout@v1
       - uses: crusty-pie/toolchain@v1
         with:
-            toolchain: nightly
-            components: clippy
-            override: true
+          toolchain: nightly
+          components: clippy
+          override: true
       - uses: crusty-pie/clippy@v1
         with:
           args: --all-features --all-targets
@@ -77,8 +77,8 @@ jobs:
       - uses: actions/checkout@v1
       - uses: crusty-pie/toolchain@v1
         with:
-            toolchain: stable
-            components: clippy
+          toolchain: stable
+          components: clippy
       - uses: crusty-pie/clippy@v1
         with:
           args: --all-features --all-targets
@@ -86,10 +86,9 @@ jobs:
 
 ## Inputs
 
-| Name        | Required | Description                                                                                                                            | Type   | Default |
-| ------------| :------: | ---------------------------------------------------------------------------------------------------------------------------------------| ------ | --------|
-| `args`      |          | Arguments for the `cargo clippy` command                                                                                               | string |         |
-
+| Name         | Required | Description                              | Type   | Default |
+|--------------|:--------:|------------------------------------------|--------|---------|
+| `args`       |  false   | Arguments for the `cargo clippy` command | string | ''      |
 
 ## Contribute and support
 
