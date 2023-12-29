@@ -1,4 +1,4 @@
-name: 'clippy'
+name: 'rust-clippy'
 description: 'Run clippy and annotate the diff with errors and warnings'
 author: 'crusty-pie team'
 branding:

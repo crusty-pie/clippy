@@ -1,4 +1,4 @@
-# Rust `clippy` Action
+# GitHub Action - `rust-clippy`
 
 ![GitHub](https://img.shields.io/github/license/crusty-pie/clippy?label=License&color=blue&logo=gitbook)
 ![Continuous integration](https://github.com/crusty-pie/clippy/workflows/Unit%20tests/badge.svg)
@@ -25,7 +25,7 @@ Clippy lints in your commits and Pull Requests
 
 **Table of Contents**
 
-- [Rust `clippy` Action](#rust-clippy-action)
+- [GitHub Action - `rust-clippy`](#github-action---rust-clippy)
   - [Motivation](#motivation)
   - [Example workflow](#example-workflow)
     - [With stable clippy](#with-stable-clippy)
@@ -60,7 +60,7 @@ jobs:
           toolchain: nightly
           components: clippy
           override: true
-      - uses: crusty-pie/clippy@v1
+      - uses: crusty-pie/rust-clippy@v1
         with:
           args: --all-features --all-targets
 ```
@@ -79,7 +79,7 @@ jobs:
         with:
           toolchain: stable
           components: clippy
-      - uses: crusty-pie/clippy@v1
+      - uses: crusty-pie/rust-clippy@v1
         with:
           args: --all-features --all-targets
 ```
