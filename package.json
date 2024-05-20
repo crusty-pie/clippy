@@ -34,7 +34,7 @@
         "@actions/exec": "^1.0.4",
         "@actions/io": "^1.0.2",
         "commander": "11.1.0",
-        "fp-ts": "^2.16.5",
+        "fp-ts": "^2.16.6",
         "semver": "^7.6.2",
         "string-argv": "^0.3.2"
     },
