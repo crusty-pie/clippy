@@ -13,7 +13,6 @@
 import * as core from "@actions/core";
 import { Line } from "./types";
 import * as escapeUtils from "./utils/escape";
-``;
 import { IAnnotation } from "./types";
 import { Option, some, none } from "fp-ts/Option";
 import { Message } from "./message";
@@ -66,7 +65,7 @@ export class Annotation {
 
         try {
             contents = JSON.parse(line) as Line;
-        } catch (error) {
+        } catch {
             core.debug(`${line} is not a JSON, ignoring it`);
             return none;
         }
