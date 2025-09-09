@@ -14,10 +14,6 @@
 [![Depfu](https://badges.depfu.com/badges/8e038d781d5d5ea4c2be016401319803/status.svg)](https://depfu.com)
 [![Depfu](https://img.shields.io/depfu/dependencies/github/crusty-pie%2Fclippy?logo=depfu)](https://depfu.com/repos/github/crusty-pie/clippy)
 [![Depfu](https://badges.depfu.com/badges/07d8712d1903c3495e6cfeacd170c437/count.svg)](https://depfu.com/github/crusty-pie/clippy?project_id=39503)
-[![Static Badge](https://img.shields.io/badge/Code%20Climate-enabled-brightgreen?logo=codeclimate)](https://codeclimate.com/)
-[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/crusty-pie/clippy?label=Maintainability&logo=codeclimate)](https://codeclimate.com/github/crusty-pie/clippy)
-[![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/crusty-pie/clippy?label=Technical%20Debt&logo=codeclimate)](https://codeclimate.com/github/crusty-pie/clippy/trends/technical_debt)
-[![Code Climate issues](https://img.shields.io/codeclimate/issues/crusty-pie/clippy?label=Issues&logo=codeclimate)](https://codeclimate.com/github/crusty-pie/clippy/issues)
 [![Public workflows that use this action](https://img.shields.io/endpoint?label=Used%20By&url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dplacintaalexandru%2Fclippy%26badge%3Dtrue)](https://sourcegraph.com/search?q=context:global+crusty-pie/clippy+file:.github/workflows&patternType=literal)
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-rust--clippy--reborn-b7410e?logo=github)](https://github.com/marketplace/actions/rust-clippy-reborn)
 
