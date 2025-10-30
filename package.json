@@ -35,7 +35,7 @@
         "@actions/io": "^1.0.2",
         "commander": "^14.0.1",
         "fp-ts": "^2.16.11",
-        "semver": "^7.7.2",
+        "semver": "^7.7.3",
         "string-argv": "^0.3.2"
     },
     "devDependencies": {
