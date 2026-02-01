@@ -33,7 +33,7 @@
         "@actions/core": "^1.11.1",
         "@actions/exec": "^1.0.4",
         "@actions/io": "^1.0.2",
-        "commander": "^14.0.2",
+        "commander": "^14.0.3",
         "fp-ts": "^2.16.11",
         "semver": "^7.7.3",
         "string-argv": "^0.3.2",
